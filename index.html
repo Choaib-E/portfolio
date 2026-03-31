@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choaib EL HACHIMI - Portfolio Professionnel</title>
+    <meta name="author" content="CHOAIB EL HACHIMI" >
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <header class="header" id="header">
+        <div class="nav-container">
+            <div class="logo">CHOAIB EL HACHIMI</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" id="navHome">Accueil</a></li>
+                    <li><a href="#about" id="navAbout">À propos</a></li>
+                    <li><a href="#skills" id="navSkills">Compétences</a></li>
+                    <li><a href="#education" id="navEducation">Formation</a></li>
+                    <li><a href="#projects" id="navProjects">Projets</a></li>
+                    <li><a href="#contact" id="navContact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="controls">
+                <button class="icon-btn" id="langBtn" title="Changer la langue">
+                    <i class="fas fa-globe"></i>
+                </button>
+                <button class="icon-btn" id="themeBtn" title="Changer le thème">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-label" id="heroLabel">👋 Bienvenue sur mon portfolio</span>
+                <h1 id="heroName">Choaib<br>EL HACHIMI</h1>
+                <h2 id="heroTitle">Ingénieur Informatique & IA</h2>
+                <p id="heroDesc">Étudiant passionné par le développement web et l'intelligence artificielle. Je conçois des solutions numériques innovantes qui allient performance, esthétique et intelligence artificielle pour résoudre des problèmes complexes.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary" id="btnContact">
+                        <i class="fas fa-envelope"></i>
+                        <span>Me Contacter</span>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary" id="btnProjects">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Voir mes projets</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+    <img src="CHOAIB.png" alt="Choaib EL HACHIMI" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;"></div>
+                    </div>
+                    <div class="social-links">
+                        <a href="http://www.linkedin.com/in/Choaib-ELHACHIMI" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Choaib-E/" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/Choaib%20EL" target="_blank" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="section-header">
+            <span class="section-label" id="aboutLabel">À propos de moi</span>
+            <h2 class="section-title" id="aboutTitle">Qui suis-je ?</h2>
+            <p class="section-subtitle" id="aboutSubtitle">Découvrez mon parcours et ma passion pour la technologie</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p id="aboutText1">Je suis étudiant en Licence Ingénierie Informatique et Intelligence Artificielle à la Faculté Polydisciplinaire de Khouribga. Ma passion pour la technologie m'a conduit à explorer divers domaines, de la création d'applications web interactives à la modélisation de systèmes complexes.</p>
+                <p id="aboutText2">Mon approche combine rigueur technique et créativité pour concevoir des solutions innovantes. Je suis particulièrement intéressé par l'application de l'IA dans des domaines variés comme la simulation physique, l'optimisation et l'analyse de données.</p>
+                <p id="aboutText3">Toujours à la recherche de nouveaux défis, je m'efforce de rester à jour avec les dernières technologies et méthodologies de développement pour créer des projets qui ont un impact réel.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card fade-in">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label" id="stat1">Projets Réalisés</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-number">6+</div>
+                    <div class="stat-label" id="stat2">Technologies Maîtrisées</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label" id="stat3">Engagement</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-number">1+</div>
+                    <div class="stat-label" id="stat4">Années d'Expérience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="section-header">
+            <span class="section-label" id="skillsLabel">Mes compétences</span>
+            <h2 class="section-title" id="skillsTitle">Technologies & Outils</h2>
+            <p class="section-subtitle" id="skillsSubtitle">Les technologies que je maîtrise pour créer des solutions performantes</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card fade-in">
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <div class="skill-name">HTML5</div>
+                <div class="skill-level" id="skillLevel1">Avancé</div>
+            </div>
+            <div class="skill-card fade-in">
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                <div class="skill-name">CSS3</div>
+                <div class="skill-level" id="skillLevel2">Avancé</div>
+            </div>
+            <div class="skill-card fade-in">
+                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-level" id="skillLevel3">Intermédiaire</div>
+            </div>
+            <div class="skill-card fade-in">
+                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                <div class="skill-name">Python</div>
+                <div class="skill-level" id="skillLevel4">Avancé</div>
+            </div>
+            <div class="skill-card fade-in">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <div class="skill-name">C/C++</div>
+                <div class="skill-level" id="skillLevel5">Intermédiaire</div>
+            </div>
+            <div class="skill-card fade-in">
+                <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                <div class="skill-name" id="skillAI">Intelligence Artificielle</div>
+                <div class="skill-level" id="skillLevel6">Intermédiaire</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="education">
+        <div class="section-header">
+            <span class="section-label" id="educationLabel">Mon parcours</span>
+            <h2 class="section-title" id="educationTitle">Formation</h2>
+            <p class="section-subtitle" id="educationSubtitle">Mon cheminement académique et professionnel</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item fade-in">
+                <div class="timeline-content">
+                    <div class="timeline-date">2024 - Présent</div>
+                    <h3 class="timeline-title" id="edu1Title">Licence Ingénierie Informatique et IA</h3>
+                    <p class="timeline-subtitle" id="edu1Sub">Faculté Polydisciplinaire Khouribga</p>
+                    <p class="timeline-desc" id="edu1Desc">Formation spécialisée en ingénierie informatique et intelligence artificielle, développement web et mobile, avec une approche pratique des technologies modernes et de l'IA.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-content">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <h3 class="timeline-title" id="edu2Title">Baccalauréat Sciences Mathématiques</h3>
+                    <p class="timeline-subtitle" id="edu2Sub">Lycée Khouribga</p>
+                    <p class="timeline-desc" id="edu2Desc">Formation scientifique solide avec spécialisation en mathématiques, développant des compétences analytiques et de résolution de problèmes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="section-header">
+            <span class="section-label" id="projectsLabel">Portfolio</span>
+            <h2 class="section-title" id="projectsTitle">Mes Projets</h2>
+            <p class="section-subtitle" id="projectsSubtitle">Une sélection de mes réalisations les plus significatives</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-bolt"></i></div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title" id="proj1Title">Simulation Force Électrostatique</h3>
+                    <p class="project-desc" id="proj1Desc">Simulation 2D interactive calculant et visualisant les forces électrostatiques entre charges selon la loi de Coulomb.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Canvas</span>
+                        <span class="tag">Physique</span>
+                    </div>
+                    <a href="https://choaib-e.github.io/Simulation-Interactive-de-la-Force-lectrostatique/" class="project-link" target="_blank">
+                        <span id="viewProject1">Voir le projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-robot"></i></div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title" id="proj2Title">Robot Autonome</h3>
+                    <p class="project-desc" id="proj2Desc">Simulation d'un robot mobile autonome avec évitement d'obstacles et planification de trajectoire intelligente.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">IA</span>
+                        <span class="tag">Pathfinding</span>
+                    </div>
+                    <a href="https://choaib-e.github.io/Simulation-d-un-Robot-Mobile-Autonome-avec-vitement-d-Obstacles/" class="project-link" target="_blank">
+                        <span id="viewProject2">Voir le projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-seedling"></i></div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title" id="proj3Title">Systèmes Agricoles Intelligents</h3>
+                    <p class="project-desc" id="proj3Desc">Application web pour modéliser des systèmes agricoles et évaluer différentes stratégies de gestion.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Simulation</span>
+                        <span class="tag">Optimisation</span>
+                    </div>
+                    <a href="https://choaib-e.github.io/Simulation-Intelligente-des-Syst-mes-Agricoles/" class="project-link" target="_blank">
+                        <span id="viewProject3">Voir le projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-virus"></i></div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title" id="proj4Title">Propagation Épidémique</h3>
+                    <p class="project-desc" id="proj4Desc">Modélisation épidémiologique avec optimisation des stratégies sanitaires via algorithmes génétiques.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Algorithmes Génétiques</span>
+                        <span class="tag">Modélisation</span>
+                    </div>
+                    <a href="https://choaib-e.github.io/Simulation-de-la-Propagation-pid-mique-par-Algorithmes-G-n-tiques/" class="project-link" target="_blank">
+                        <span id="viewProject4">Voir le projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-solar-panel"></i></div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title" id="proj5Title">Optimisation Énergie Solaire</h3>
+                    <p class="project-desc" id="proj5Desc">Plateforme d'analyse et d'optimisation de la production énergétique solaire avec modèles IA.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">IA</span>
+                        <span class="tag">Énergie</span>
+                    </div>
+                    <a href="https://choaib-e.github.io/Optimisation-de-la-Production-d-nergie-Solaire-par-Approches-Intelligentes/" class="project-link" target="_blank">
+                        <span id="viewProject5">Voir le projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-car"></i></div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title" id="proj6Title">Trafic Urbain Intelligent</h3>
+                    <p class="project-desc" id="proj6Desc">Simulation de trafic urbain avec analyse prédictive et optimisation des flux de transport.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">IA Prédictive</span>
+                        <span class="tag">Simulation</span>
+                    </div>
+                    <a href="https://choaib-e.github.io/Simulation-Intelligente-du-Trafic-Urbain/" class="project-link" target="_blank">
+                        <span id="viewProject6">Voir le projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-globe-americas"></i></div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title" id="proj7Title">Simulation du Système Solaire</h3>
+                    <p class="project-desc" id="proj7Desc">Application web interactive permettant de modéliser le système solaire, de simuler le mouvement des planètes selon les lois de la gravitation et de visualiser les interactions astronomiques.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Three.js</span>
+                        <span class="tag">Physique</span>
+                        <span class="tag">Astronomie</span>
+                    </div>
+                    <a href="https://choaib-e.github.io/Simulation-Interactive-du-Syst-me-Solaire/" class="project-link" target="_blank">
+                        <span id="viewProject7">Voir le projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title" id="proj8Title">Simulation du Corps Humain</h3>
+                    <p class="project-desc" id="proj8Desc">Application web interactive permettant de modéliser le corps humain, de visualiser ses principaux systèmes anatomiques et de simuler leurs fonctions de manière pédagogique et dynamique.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">3D</span>
+                        <span class="tag">Anatomie</span>
+                        <span class="tag">Éducation</span>
+                    </div>
+                    <a href="https://choaib-e.github.io/Simulation-Interactive-du-Corps-Humain/" class="project-link" target="_blank">
+                        <span id="viewProject8">Voir le projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title" id="proj9Title">Dashboard de Productivité</h3>
+                    <p class="project-desc" id="proj9Desc">Tableau de bord interactif de productivité personnelle avec mécanismes intelligents, statistiques en temps réel et visualisations dynamiques pour la gestion des tâches et l'optimisation du temps.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Dashboard</span>
+                        <span class="tag">Analytics</span>
+                        <span class="tag">Productivité</span>
+                    </div>
+                    <a href="https://choaib-e.github.io/Dashboard-Intelligent-de-Productivit-Personnelle/" class="project-link" target="_blank">
+                        <span id="viewProject9">Voir le projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-icon"><i class="fas fa-water"></i></div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title" id="proj10Title">Simulation Océanique Interactive</h3>
+                    <p class="project-desc" id="proj10Desc">Simulation interactive des zones océaniques permettant d'explorer la relation entre la profondeur, les paramètres physiques (pression, température, luminosité) et la biodiversité marine. Le projet combine visualisation graphique, animation et données scientifiques à des fins pédagogiques.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Simulation</span>
+                        <span class="tag">Océanographie</span>
+                        <span class="tag">Éducation</span>
+                    </div>
+                    <a href="https://choaib-e.github.io/Simulation-Oc-anique-Interactive/" class="project-link" target="_blank">
+                        <span id="viewProject10">Voir le projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="section-header">
+            <span class="section-label" id="contactLabel">Restons en contact</span>
+            <h2 class="section-title" id="contactTitle">Contactez-moi</h2>
+            <p class="section-subtitle" id="contactSubtitle">N'hésitez pas à me contacter pour tout projet ou collaboration</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 id="contactInfoTitle">Discutons de votre projet</h3>
+                <p id="contactInfoDesc">Je suis toujours ouvert aux nouvelles opportunités et collaborations. Que ce soit pour un projet, un stage ou simplement pour échanger sur la technologie, n'hésitez pas à me contacter.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <div style="font-weight: 600;">Localisation</div>
+                            <div style="color: var(--text-secondary);">Khouribga, Maroc</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <div style="font-weight: 600;">Email</div>
+                            <div style="color: var(--text-secondary);">contact@choaib-elhachimi.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                        <div>
+                            <div style="font-weight: 600;">LinkedIn</div>
+                            <div style="color: var(--text-secondary);">Choaib EL HACHIMI</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name" id="labelName">Nom complet</label>
+                    <input type="text" id="name" name="name" required placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email" id="labelEmail">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="votre@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="message" id="labelMessage">Message</label>
+                    <textarea id="message" name="message" required placeholder="Votre message..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn" id="submitBtn">
+                    <i class="fas fa-paper-plane"></i>
+                    <span id="btnSubmit">Envoyer le message</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="http://www.linkedin.com/in/Choaib-ELHACHIMI" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Choaib-E/" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/Choaib%20EL" target="_blank" class="social-link">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            <p id="footerText">© 2024 Choaib EL HACHIMI. Tous droits réservés.</p>
+            <p id="footerLocation">Conçu avec passion à Khouribga, Maroc 🇲🇦</p>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
